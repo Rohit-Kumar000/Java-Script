@@ -29,4 +29,29 @@ const myFunction = function(){                      // Function
     console.log("Hello World");
 }
 
-console.log((typeof heroes));
+// console.log((typeof heroes));
+
+
+
+// **************************** Memories **************************** //
+
+// Stack (Primitive) => Copy , Heap (Non Primitive) => Reference
+
+let myYoutubename = "rohitkumardotcom";
+let anotherName = myYoutubename;
+anotherName = "newyoutubedotcom"
+
+// console.log(myYoutubename);
+// console.log(anotherName);
+
+let userone = {
+    emai: "user@gmail.com",
+    upiid: "user32@ibl"
+}
+
+let usertwo = userone;
+
+usertwo.email = "new@gmai.com";
+
+console.log(userone.email);
+console.log(usertwo.email);
