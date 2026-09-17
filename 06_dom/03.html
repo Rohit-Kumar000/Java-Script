@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Learning</title>
+    <style>
+        .background {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body class="background">
+    <ul class="language">
+        <li>JavaScript</li>
+    </ul>
+</body>
+<script>
+    function addList(listname){
+        const list = document.createElement('li');
+        list.innerHTML = `${listname}`
+        document.querySelector('.language').appendChild(list)
+    }
+    addList("Python");
+    addList("C++")
+    
+    function Optilist(lName){
+        const list = document.createElement('li')
+        list.appendChild(document.createTextNode(lName))
+        document.querySelector('.language').appendChild(list)
+    }
+    Optilist("Java")
+
+    // Edit 
+
+    const editlist = document.querySelector('li:nth-child(1)')
+    const list = document.createElement('li')
+    list.textContent = "Dotnet"
+    editlist.replaceWith(list)
+
+    // Remove
+
+    const lastlan = document.querySelector('li:last-child')
+    lastlan.remove()
+    
+</script>
+</html>
