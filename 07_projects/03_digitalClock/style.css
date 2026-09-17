@@ -1,0 +1,54 @@
+.bg-color {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.return {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.return:hover {
+    background-color: #ddd;
+}
+
+.digital {
+    text-align: center;
+    margin-top: 150px;
+}
+
+#local {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#clock {
+    display: inline-block;
+    padding: 20px 40px;
+    min-width: 250px;
+
+    background-color: white;
+    color: black;
+
+    font-size: 45px;
+    font-weight: bold;
+
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
