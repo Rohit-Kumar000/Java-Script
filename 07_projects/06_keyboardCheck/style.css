@@ -1,0 +1,47 @@
+.bg-color {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.return {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.return:hover {
+    background-color: #ddd;
+}
+
+table, th, td {
+    border: 1px solid #e7e7e7;
+}
+
+.project {
+    background-color: rgb(37, 35, 35);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.color {
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
